@@ -1,0 +1,7 @@
+venv
+.idea
+settings.py
+db.sqlite3
+opinionMonitor/__pycache__/
+opinionMonitor/login/__pycache__/
+opinionMonitor/login/migrations/__pycache__/
