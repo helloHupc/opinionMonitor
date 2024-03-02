@@ -11,6 +11,7 @@ const axiosClient = axios.create({
 // 请求拦截器
 axiosClient.interceptors.request.use(
     config => {
+        config.headers['content-type'] = 'application/json;charset=utf-8';
         return config
     },
     error => {

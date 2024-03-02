@@ -37,7 +37,7 @@ const doLogin = () => {
   console.log('Form Data:', formData);
 
   // 调用
-  apiFun.doLogin({formData}).then((res) => {
+  apiFun.doLogin(formData).then((res) => {
     // 无论失败与否都直接输出结果
     console.log('res', res)
   })

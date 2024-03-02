@@ -2,6 +2,8 @@ venv
 .idea
 settings.py
 db.sqlite3
-opinionMonitor/__pycache__/
-opinionMonitor/login/__pycache__/
-opinionMonitor/login/migrations/__pycache__/
+opinionMonitor/__pycache__/*
+opinionMonitor/login/__pycache__/*
+opinionMonitor/login/migrations/__pycache__/*
+frontend/node_modules/*
+login/__pycache__/*
